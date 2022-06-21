@@ -61,7 +61,12 @@ print(users["Erik"]["home_town"])
 # 3. Get the list of Erik's lottery numbers
 print(users["Erik"]["lottery_numbers"])
 # 4. Get the species of Avril's pet Monty
+print(users["Avril"]["pets"])
+
 # 5. Get the smallest of Erik's lottery numbers
+smallest = users["Erik"]["lottery_numbers"]
+smallest.sort()
+print(smallest[0])
 # 6. Return an list of Avril's lottery numbers that are even
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
 # 8. Change Erik's hometown to Edinburgh
